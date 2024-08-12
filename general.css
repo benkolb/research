@@ -33,13 +33,13 @@ body {font-family: 'Linux Libertine', sans-serif; background-color:  rgb(192,208
 .navbar a.active {background-color: white; color: rgb(0,84,130);}
 
 .main {
-  margin-top: 50px; /* Add a top margin to avoid content overlay */
+  margin-top: 200px; /* Add a top margin to avoid content overlay */
 }
 
-h1 {font: x-large 'Linux Libertine', sans-serif; color: rgb(0,84,130);
+h1 {font: x-large 'Linux Libertine', sans-serif; color: black;
     border-bottom: thin rgb(0,84,130) solid;}
 
-	h2 {font: large 'Linux Libertine', sans-serif; color: rgb(0,84,130);}
+h2 {font: large 'Linux Libertine', sans-serif; color: black;}
 
 table {margin: 0;}
 .sidebar {width="15%"; padding: 0.5em; background-color: rgb(0,84,130); color:  rgb(192,208,234); vertical-align:top;} 
