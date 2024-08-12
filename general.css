@@ -1,10 +1,15 @@
 
 /* NOTE:  rgb(192,208,234)=medium EUI blue, rgb(0,84,130)=dark EUI blue */
 body {font-family: 'Linux Libertine', sans-serif; background-color:  rgb(192,208,234);}
+.topnav {overflow: hidden;  background-color: rgb(0,84,130); color: white;}
+.topnav a {float: left; color: #f2f2f2; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 17px;}
+.topnav a:hover {background-color: rgb(0,42,65); color: white;}
+.topnav a.active {background-color: white; color: rgb(0,84,130);}
 h1 {font: x-large 'Linux Libertine', sans-serif; color: rgb(0,84,130);
     border-bottom: thin rgb(0,84,130) solid;}
 
 	h2 {font: large 'Linux Libertine', sans-serif; color: rgb(0,84,130);}
+
 table {margin: 0;}
 .sidebar {width="15%"; padding: 0.5em; background-color: rgb(0,84,130); color:  rgb(192,208,234); vertical-align:top;} 
 .sidebar ul li link {list-style-type: none; margin-left: 0; width="15%"; 
